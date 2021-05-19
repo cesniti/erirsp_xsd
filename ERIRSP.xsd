@@ -41,13 +41,19 @@
 				</xs:element>
 				<xs:element name="MessageDateTime" type="xs:dateTime" minOccurs="0"/>
 				<xs:element name="MessageRef" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Reference number to previous message</xs:documentation>
+					</xs:annotation>
 					<xs:simpleType>
 						<xs:restriction base="xs:string">
 							<xs:maxLength value="35"/>
 						</xs:restriction>
 					</xs:simpleType>
 				</xs:element>
-				<xs:element name="TransportRef" minOccurs="0">
+				<xs:element name="TransportDocRef" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Reference number of the transport document</xs:documentation>
+					</xs:annotation>
 					<xs:simpleType>
 						<xs:restriction base="xs:string">
 							<xs:maxLength value="35"/>

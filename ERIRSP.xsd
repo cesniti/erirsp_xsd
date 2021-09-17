@@ -18,7 +18,7 @@
 <!--				Changed: Messagenr and MessageRefNr increased to 35, conform EDIFACT -->
 <!--				Changed: <NamesAdresses> max occ 1 => 3 (MS, MR, CG) -->
 <!-- ============================================================================================== -->
-<xs:schema targetNamespace="http://www.risexpertgroups.org/ERIRSP1.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.risexpertgroups.org/ERIRSP1.2" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns="https://ris.cesni.eu/_assets/ERI-ERIRSP/1.3" targetNamespace="https://ris.cesni.eu/_assets/ERI-ERIRSP/1.3" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.3">
 	<xs:element name="ERIRSP">
 		<xs:annotation>
 			<xs:documentation>ERI Response Message</xs:documentation>
